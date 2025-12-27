@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rotaract's Nadaan Parindey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">DISTRICT 3131'S RAC AIT</h1>
+        <div class="tagline">Presents — Nadaan Parindey</div>
+    </header>
+
+    <main class="hero">
+        <div class="ascii-art card" aria-hidden="true">
+            <pre>
+++++     ++    **********    ######      @@@@@@@@@@    @@@@@@@@@@    [][][]      [][]        PPPPPPPPP   AAAAAAAAAA  RRRRRRRR    ||| NNN    NN   DDDDDDD     EEEEEEE YY     YY
++++++   ++    ***    ***    ###   ##    @@@    @@@    @@@    @@@    [][][][]    [][]        PP      PP  AAA    AAA  RR      R   ||| NNNNN  NN   DD    DD    EE       YY   YY
+++++++  ++    ***====***    ###    ##   @@@====@@@    @@@====@@@    [][]  [][]  [][]        PPPPPPPPP   AAA====AAA  RRRRRRRR    ||| NN  NN NN   DD     DD   EEEEE     YY YY 
+++   +++++    ***    ***    ###    ##   @@@    @@@    @@@    @@@    [][]   [][] [][]        PP          AAA    AAA  RR     RR   ||| NN   NNNN   DD    DD    EE         YYY
+++    ++++    ***    ***    ######      @@@    @@@    @@@    @@@    [][]    [][][][]        PP          AAA    AAA  RR      RR  ||| NN    NNN   DDDDDDD     EEEEEEE    |||  
+====================================================================================        =================================================================================
+====================================================================================        =================================================================================
+            </pre>
+        </div>
+
+        <div class="content">
+            <section class="card">
+                <h2 class="section-title">Introduction</h2>
+                <p class="intro"> 
+                    Nadaan Parindey is an initiative by the RAC AIT to introduce technical topics in Rotaract, and to show others that Rotaract is not only about social service.
+                    Our mentor for the session says, <strong>"There will be no one-way teaching and one-way learning; rather it will be two-way learning and teaching."</strong>
+                </p>
+
+                <h2 class="section-title">Courses to be Taught</h2>
+                <ol class="courses">
+                    <li>Full Stack Web Development</li>
+                    <li>AI / ML</li>
+                    <li>Data Science</li>
+                    <li>Android Development</li>
+                    <li>Blockchain</li>
+                    <li>AutoCAD / Catia (Designing)</li>
+                    <li>And many more…</li>
+                </ol>
+            </section>
+
+            <aside class="card">
+                <h2 class="section-title">Login</h2>
+                <form class="login" aria-label="Login form">
+                    <label for="email">Email ID</label>
+                    <input id="email" type="text" name="email" placeholder="Enter your E-Mail ID" required>
+
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" placeholder="Enter your Password" required>
+
+                    <div class="actions">
+                        <a href="#" style="color:var(--muted); text-decoration:underline; font-size:0.9rem">Forgot password?</a>
+                        <button class="cta" type="submit">Login</button>
+                    </div>
+
+                    <div style="margin-top:0.6rem; color:var(--muted); font-size:0.9rem">
+                        Don't have an account? <a href="#" style="color:var(--accent); text-decoration:none">Sign up</a>
+                    </div>
+                </form>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        © <span id="year"></span> Rotaract RAC AIT — Nadaan Parindey. All rights reserved.
+    </footer>
+
+    <script>
+        // Small enhancement: set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
